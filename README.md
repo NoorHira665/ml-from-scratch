@@ -2,8 +2,6 @@
 
 Machine learning algorithms implemented from scratch in Python using only NumPy. No ML libraries used for the core logic.
 
----
-
 ## Algorithms
 
 | Algorithm | Dataset | Output |
@@ -17,8 +15,6 @@ Machine learning algorithms implemented from scratch in Python using only NumPy.
 | K-Means Clustering | diabetes.csv | Cluster plot + purity score |
 | PCA | LFW People (via sklearn) | Reconstructed face images |
 
----
-
 ## Datasets
 
 | File | Description |
@@ -28,29 +24,15 @@ Machine learning algorithms implemented from scratch in Python using only NumPy.
 | `diabetes.csv` | Diabetes dataset used for unsupervised clustering |
 | LFW People | Labeled Faces in the Wild, fetched automatically via sklearn |
 
----
-
 ## Setup
 
 ```bash
 pip install numpy matplotlib scikit-learn
 ```
 
----
-
 ## Usage
 
-Each algorithm is self-contained in its own folder. Run any file directly:
-
-```bash
-python linear_regression_closed_form/linear_regression_closed_form.py
-python logistic_regression/logistic_regression.py
-python kmeans/kmeans.py
-```
-
-Place the required CSV files in the same directory as the script before running.
-
----
+Each algorithm is self-contained in its own folder. Run any file directly. Place the required CSV files in the same directory as the script before running.
 
 ## Notes
 
